@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Faustina:wght@300&family=Reem+Kufi+Ink&display=swap');
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    align-content: center;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #677DB7;
+    border-radius: 20px;
+
+}
+
+header img {
+    grid-column: 1,2;
+    align-items: center;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #484848;
+   
+}
+
+header h1{
+    grid-column: 2;
+    color: white;    
+    margin:auto;
+    margin-left: -30px;
+    font-size: 4rem;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+
+    
+}
+
+main h2{
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-size: 2.2rem;
+    border-bottom: solid 2px black;
+}
+
+main ul li {
+    font-family: "Faustina", serif;
+    margin-top: 5px;
+    font-size: 1.5rem;
+}
+
+main p{
+    font-family: "Faustina", serif;
+    margin-top: 5px;
+    border-top: solid 2px black;
+    font-size: 1rem;
+}
+
+footer {
+    padding: 10px;
+    background-color: #677DB7;
+    text-align-last: center;
+    border-radius: 20px;
+
+}
