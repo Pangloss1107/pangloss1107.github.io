@@ -16,7 +16,6 @@ header {
 }
 
 header img {
-    grid-column: 1,2;
     align-items: center;
     margin: 30px auto;
     border-radius: 10px;
