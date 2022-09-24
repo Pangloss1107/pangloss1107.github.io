@@ -34,9 +34,12 @@ section {
 }
 
 .titles {
-    background-color: brown;
-    margin-top: -1px;
-    border-radius:  5px 5px 0px 0px;
+    color: white;
+    background-color: rgb(11, 15, 74);
+    margin-top: 0px;
+    margin-left: -1px;
+    border-radius:  9px 9px 0px 0px;
+    border: 1px solid black;
     
 }
 
@@ -44,4 +47,14 @@ p{
         padding:1rem;
     }
 
+section img{
+    padding: 10px;
+    margin-top: -20px;
 
+}
+
+section a{
+    display: block;
+    margin-top: -10px;
+    padding: 1rem;
+}
