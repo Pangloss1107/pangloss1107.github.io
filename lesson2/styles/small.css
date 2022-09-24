@@ -1,0 +1,28 @@
+@media only screen and (max-width: 450px) {
+	main {
+		grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 1rem;
+	}
+
+    .container1 {
+        grid-row: 1;
+        grid-column: 1;
+        
+    }
+
+    .container2 {
+        grid-row: 2;
+        grid-column: 1;
+    }
+
+    .container3 {
+        grid-row: 3;
+        grid-column: 1;
+        
+    }
+
+    p{
+        padding:1rem;
+    }
+}
