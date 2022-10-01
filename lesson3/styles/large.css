@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Faustina:wght@300&family=Reem+Kufi+Ink&display=swap');
+body{
+    width: 75%;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #F7F7F7;
+   
+}
+
+
+header, footer{
+    font-size: 1.5rem;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    background-color: #00BFB2 ;
+    color:white;
+    text-align: center;
+    padding: 1rem;
+	text-shadow: 9px 9px 9px #494a4a;
+    
+}
+
+
+
+h2{
+	font-family: 'Reem Kufi Ink', sans-serif;
+	font-size: 1.5rem;
+}
+
+footer{
+    margin-top: 1rem;
+}
+
+header{
+    margin-bottom: 0rem;
+}
+
+main{
+    background-color: #F7F7F7;
+    color: #028090 ;
+    text-align: left;
+    font-size: 1.3rem;
+    font-family: 'Faustina', serif;
+    padding: 1rem;
+	
+    
+}
+
+main, h2, p {
+    margin:10px;
+    padding: 10px;
+}
+
+p{
+	color: black;
+	font-family: 'Faustina', sans-serif;
+}
+
+ul li{
+	color:black;
+}
+
+.navigation-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+	background-color: #028090;
+    color: #F7F7F7 ;
+    text-align: left;
+    font-size: 1.4rem;
+    font-family: 'Reem Kufi Ink', sans-serif;
+	margin-top: 0px;
+	padding: 1rem;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+	list-style-type: none;
+	overflow: clip;
+	
+}
+
+nav a:link {
+	color: #F7F7F7;
+	text-decoration: none;
+	
+  }
+  
+nav a:visited {
+	color:#F7F7F7;
+	text-decoration: none;
+  }
+  
+  
+nav a:hover {
+	color: #F7F7F7;
+	background-color: #F5B82E;
+	text-decoration: none;
+	border-radius: 9px 9px 9px 9px;
+  }
+
+.active{
+	color:#028090;
+	background-color: #F5B82E;
+	border-radius: 9px 9px 9px 9px;
+}
+
+.typo{
+	border: 5px solid;
+	border-radius: 9px 9px 9px 9px;
+}
+
+.targetaud{
+	border: 5px solid;
+	border-radius: 9px 9px 9px 9px;
+}
+.boxhome{
+	border: 5px solid;
+	border-radius: 9px 9px 9px 9px;
+}
+
+main h2 {
+	border-bottom: double #F5B82E;
+}
