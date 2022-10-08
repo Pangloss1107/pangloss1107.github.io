@@ -6,9 +6,10 @@ body{
 }
 
 header{
+    padding: 1rem 0;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 80px 100px;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 50px;
     align-items: center;
     justify-content: center;
@@ -70,13 +71,10 @@ header img{
 	height: auto;
 }
 
-.nav-bar{
-    grid-column: 3 / -1;
-    grid-row: 1;
-    justify-content: center;
-    align-items: center;
-    
+#hamburgerBtn{
+    margin-left: 30px;
 }
+
 
 .date{
     grid-row: 2;
@@ -88,33 +86,51 @@ header img{
     padding: .5rem;
 }
 
+section.nav-bar{
+    width: 358px;
+    margin-top: -38px;
+    margin-bottom: -27px;
+    padding: 1rem 0;
+    grid-column: 1/-1;
+    text-align: center;
+    border: none;
 
+}
 
+#primaryNav{
+    width:100%;
+    
+}
 nav button {
     margin-left: 30px;
     background:transparent;
     border:1px solid rgb(9, 9, 9);
     font-size: 1.5rem;
     color: rgb(28, 26, 26);
+    
 }
 
 
 nav ul{
-    width: 50px;
+    
+    width: 150px;
     list-style-type: none;
-    border: .5px solid rgb(9, 9, 9);
+    border: none;
     padding:none; 
     margin:none;
+    
 }
 
 nav ul li a{
     display:block;
+    width: 100%;
     margin-left: -40px;
     padding: 1rem;
     text-decoration: none;
     background-color: rgb(114, 114, 114);
     color: #333;
     border-top: 1px solid rgb(0,0,0, 0.5);
+    
 }
 
 nav ul li a:hover{
@@ -149,6 +165,7 @@ main section{
     border: 1px solid rgb(184, 184, 184);
     height: 100%;
     margin-right: 15px;
+    margin-top: 50px;
 }
 .event{
     grid-row: 1/2;
@@ -173,6 +190,7 @@ main section{
     border: 1px solid rgb(184, 184, 184);
     height: 100%;
     margin-right: 15px;
+
     
     
 }
@@ -181,6 +199,7 @@ section.spotlights{
     display: grid;
     grid-template-rows: 1fr 1fr;
     row-gap: 2px;
+}
     
 }
 .spotlight1{
@@ -207,7 +226,7 @@ section.spotlights{
 }
 
 footer{
-    margin-top: 70px;
+    margin-top: 110px;
     margin-right: 10px;
     display: grid;
     grid-template-rows: 1fr 80px;
