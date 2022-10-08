@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Faustina:wght@300&family=Reem+Kufi+Ink&display=swap');
+
+body{
+   width: 100%;
+
+}
+
+header{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 80px 100px;
+    grid-template-rows: 1fr 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: .7rem;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    background-color: #028090 ;
+    color:white;
+    
+    
+}
+
+h1, h2{
+    text-shadow: 9px 9px 9px #494a4a;
+}
+header img{
+    width: 70px;
+    height: auto;
+    margin-top: -20px;
+    margin-left: 10px;
+    
+}
+
+.logo{
+    width: 70%;
+    grid-column: 1 / 2;
+    grid-row: 1;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.uruwildlogo{
+    margin-top: 5px;
+}
+
+.name{
+    margin-top: -70px;
+    margin-left: 90px;
+    margin-right: 10px;
+    font-size: 10px;
+}
+
+.name div{
+    margin-top: -15px;
+}
+
+.social {
+	width: 100%;
+    grid-column: 2/3;
+    grid-row: 1;
+    justify-content: right;
+    display: inline;
+    margin-left: 20px;
+    
+}
+
+.social svg {
+	width: 20px;
+	height: auto;
+}
+
+.nav-bar{
+    grid-column: 3 / -1;
+    grid-row: 1;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.date{
+    grid-row: 2;
+    grid-column: 1/-1;
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 15px;
+    margin-right: 25px; 
+    padding: .5rem;
+}
+
+
+
+nav button {
+    margin-left: 30px;
+    background:transparent;
+    border:1px solid rgb(9, 9, 9);
+    font-size: 1.5rem;
+    color: rgb(28, 26, 26);
+}
+
+
+nav ul{
+    width: 50px;
+    list-style-type: none;
+    border: .5px solid rgb(9, 9, 9);
+    padding:none; 
+    margin:none;
+}
+
+nav ul li a{
+    display:block;
+    margin-left: -40px;
+    padding: 1rem;
+    text-decoration: none;
+    background-color: rgb(114, 114, 114);
+    color: #333;
+    border-top: 1px solid rgb(0,0,0, 0.5);
+}
+
+nav ul li a:hover{
+    background-color: rgb(0,0,0, 0.3);
+}
+
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+
+/* Main grid  */
+
+main{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+    
+}
+
+main section{
+    margin-top: 10px;
+    
+}
+.hero{
+    grid-row: 1/2;
+    border: 1px solid rgb(184, 184, 184);
+    height: 100%;
+    margin-right: 15px;
+}
+.event{
+    grid-row: 1/2;
+    border: 1px solid rgb(184, 184, 184);
+    height: 100%;
+    margin-right: 15px;
+}
+.weather{
+    grid-row: 1/2;
+    border: 1px solid rgb(184, 184, 184);
+    height: 100%;
+    margin-right: 15px;
+}
+.newre{
+    grid-row: 1/2;
+    border: 1px solid rgb(184, 184, 184);
+    height: 100%;
+    margin-right: 15px;
+}
+.spotlights{
+    grid-row: 1/2;
+    border: 1px solid rgb(184, 184, 184);
+    height: 100%;
+    margin-right: 15px;
+    
+    
+}
+
+section.spotlights{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 2px;
+    
+}
+.spotlight1{
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+    border: 1px solid rgb(184, 184, 184);
+
+}
+.spotlight2{
+    grid-column: 1;
+    grid-row: 2;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(184, 184, 184);
+    
+}
+.spotlight3{
+    display: none;
+}
+
+.join{
+    display: none;
+}
+
+footer{
+    margin-top: 70px;
+    margin-right: 10px;
+    display: grid;
+    grid-template-rows: 1fr 80px;
+    justify-items: center;
+    padding: 5px 0;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    background-color: #028090 ;
+    color:white;
+}
+
+footer img{
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+}
+
+.basefooter{
+    text-align: center;
+    font-size: 14px;
+}
