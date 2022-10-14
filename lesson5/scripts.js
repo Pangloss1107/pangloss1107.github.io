@@ -6,7 +6,7 @@ const list = document.querySelector('ul')
 
 button.addEventListener('click', function() {
     if (input.value.length === 0){
-        console.log("Please add a chapter of the Book of Mormon")
+        alert("Please add a chapter of the Book of Mormon")
     } else {
         const items = input.value;
     
