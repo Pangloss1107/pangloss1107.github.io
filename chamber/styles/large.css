@@ -1,67 +1,42 @@
 @media only screen and (min-width: 64em) {
 
 
-.nav-bar{
-    grid-column: 1 / 3;
-    grid-row: 1;
-    border: none;
-    
-}
 
-#hamburgerBtn {
-    display:none;
-}
+  header button {
+    display: none;
+  }
 
-nav ul#primaryNav{
+  nav ul li a {
+    font-size: 3.5rem;
+    color: white;
+  }
+
+  nav ul#primaryNav {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 70rem;
+
+  }
+  nav ul li a {
     border: none;
-    font-size: .5rem;
-    width: 25rem;
-    
-       
-}
+  }
 
-nav ul li a{
-    display: inline;
-    border:none;
-    padding: 0;
-    background-color: #028090 ;
-    font-size: 18px;
-    margin-left:none;
-    color: #f7f7f7;
+  nav ul li a {
+    padding: 2rem 9rem;
+  }
 
-    
-}
+  .social {
+    margin-right: 1rem;
+  }
 
-nav ul li a:hover{
-    background-color: rgba(254, 249, 249, 0.3);
-    color: #f5b82e;
-}
+  .social svg {
+    width: 5rem;
+    height: auto;
+  }
 
 .date{
     margin-top:10px;
     margin-bottom: 10px;
 }
 
-.social{
-    display: flex;
-    margin-bottom: 5rem;
-    margin-left: 45rem;
-    width:1rem;
-    
-}
-div.social svg{
-    width: 3.8rem;
-}
-
-a.redsocial {
-  padding: 2rem;
-  margin-bottom: 10rem;
-
-}
 
 .uruwildlogo{
     margin-top: 0;

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 35rem) {
+@media only screen and (min-width: 32rem) {
     
     body{
         width: 100%;
@@ -28,31 +28,36 @@
     
     }
 
+    nav ul li a {
+        font-size: 2rem;
+      }
+    
+      .logo svg {
+        width: 6rem;
+      }
+    
+      .social svg {
+        width: 3rem;
+        height: auto;
+      }
+    
+
     .date{
         font-size: 1.8rem;
     }
 
-    #hamburgerBtn{
-        margin-right: 2rem;
-        margin-left: 24rem;
-        width: 6rem;
-    }
 
     #hamburgerBtn span:nth-child(1) {
         display: block;
         height: 5rem;
         font-size: 3rem;
     }
-
-    div.social svg{
-        margin-bottom: -5rem;
-        margin-left: 1rem;
-        width:5rem;
-
-        
+   
+    #hamburgerBtn span:nth-child(2) {
+        height: 5rem;
+        font-size: 3rem;
     }
-
-    
+   
     .info{
         font-size: 2rem;
         display: grid;

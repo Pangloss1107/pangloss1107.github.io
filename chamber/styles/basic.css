@@ -63,23 +63,24 @@ header img{
     margin-top: -15px;
 }
 
-.social {
-    grid-column: 2/3;
-    grid-row: 1;
-    justify-content: right;
-    display: inline;
-    margin-left:40px;
-    
-}
+.socialheader {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+header button {
+    margin: 0.5rem 1rem;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: white;
+  }
 
-div.social svg {
-	width: 20px;
-	height: auto;
-}
-
-#hamburgerBtn{
-    margin-left: 30px;
-}
+  .social svg {
+    width: 1.6rem;
+    height: auto;
+  }
 
 
 .date{
@@ -93,58 +94,34 @@ div.social svg {
     padding: .5rem;
 }
 
-section.nav-bar{
-    margin-top: .2rem;
-    margin-bottom:-1rem;
-    grid-column: 1/-1;
-    text-align: center;
-    border: none;
-    font-size: 1.3rem;
 
+
+nav {
+    background-color: #00BFB2;
+  }
+  
+nav ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
 }
 
-#primaryNav.open{
-    width:100%;
-    
-}
-nav button {
-    margin-left: 30px;
-    background:transparent;
-    border:1px solid rgb(9, 9, 9);
-    font-size: 1.5rem;
-    color: rgb(28, 26, 26);
-    
+nav ul li a {
+display: block;
+padding: 0.8rem 2vw;
+text-decoration: none;
+color: #eee;
+font-size: 1.5rem;
+border-top: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-
-nav ul{
-    
-    width: 150px;
-    list-style-type: none;
-    border: none;
-    padding:none; 
-    margin:none;
-    
+nav ul li a:hover {
+background-color: #2e4c4cca;
 }
 
-nav ul li a{
-    display:block;
-    width: 100%;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-    margin-left: -40px;
-    text-decoration: none;
-    background-color: rgb(208, 207, 207);
-    color: #333;
-    border-top: 1px solid rgb(0,0,0, 0.5);
-    
+nav ul {
+display: none;
 }
-
-nav ul li a:hover{
-    background-color: rgb(0,0,0, 0.3);
-    color: white;
-}
-
 
 nav ul {display: none;}
 nav ul.open {display: block;}
@@ -182,6 +159,7 @@ main {
   main .spotlight3 {
     display: none;
   }
+
 footer{
     margin-right: 10px;
     display: grid;
@@ -193,6 +171,7 @@ footer{
     font-family: 'Reem Kufi Ink', sans-serif;
     background-color: #028090 ;
     color:white;
+    width: 100%;
 }
 
 footer img{
