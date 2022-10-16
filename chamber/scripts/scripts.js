@@ -95,7 +95,7 @@ const banner = document.querySelector('.banner');
 
 const actualDay = d.getDay();
 console.log(actualDay);
-if (actualDay === 0 || actualDay === 2) {
+if (actualDay === 1 || actualDay === 2) {
   banner.classList.add('open');
   
 }
