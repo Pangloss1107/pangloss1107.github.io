@@ -79,11 +79,15 @@ function showBanner(){
     fecha = new Date();
     let actualday = fecha.getDay()
 
-    if(day>=1 && day <=3){
-        document.getElementsByClassName("banner").style.display = "";
+    if(actualday ===1){
+        document.getElementById("banner").style.display = "";
     }
+    if(actualday ===2){
+        document.getElementById("banner").style.display = "";
+    }
+    
     else{
-        document.getElementsByClassName("banner").style.display = "none";
+        document.getElementById("banner").style.display = "none";
     }
 }
 

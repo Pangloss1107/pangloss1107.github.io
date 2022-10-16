@@ -45,6 +45,7 @@ header img{
   border: 1px solid #614F5D;
   color: #f5b82e;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .logo{
@@ -335,6 +336,7 @@ footer img{
 
 .spotlights{
   background-color:#00BFB2 ;
+  width: auto;
 }
 
 .spotlights h2{
