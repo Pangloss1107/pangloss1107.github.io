@@ -109,6 +109,8 @@ main {
 }
 
 .hero .titles{
+    right: 50rem;
+    left: 40rem;
     font-size: 5rem;
     color:white;
     padding: 2rem;

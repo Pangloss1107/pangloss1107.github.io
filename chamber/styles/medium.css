@@ -142,7 +142,6 @@
         padding-left: 9rem;
         text-align: center;
         padding-right: 9rem;
-        margin-top: 3rem;
         margin-left: 12rem;
         background-color: rgba(0, 0, 0, 0.6);
         color:white;
@@ -161,6 +160,8 @@
 
     .hero .titles{
         font-size: 7rem;
+        right: auto;
+        left: auto;
         color:white;
         padding: 2rem;
         border-radius: 1rem 1rem 1rem 1rem;
