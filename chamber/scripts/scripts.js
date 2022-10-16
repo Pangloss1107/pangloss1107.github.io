@@ -71,24 +71,38 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 // long, medium, short options ... try them
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
-datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 
 
-// Show the Banner only on Monday or Tuesday
-function showBanner(){
-    fecha = new Date();
-    let actualday = fecha.getDay()
 
-    if(actualday ===1){
-        document.getElementById("banner").style.display = "";
-    }
-    if(actualday ===2){
-        document.getElementById("banner").style.display = "";
-    }
+// function showBanner(){
+//    fecha = new Date();
+  //  let actualday = fecha.getDay()
+
+  //  if(actualday ===1){
+ //       document.getElementById("banner").style.display = "";
+  //  }
+  //  if(actualday ===2){
+ //       document.getElementById("banner").style.display = "";
+ //   }
     
-    else{
-        document.getElementById("banner").style.display = "none";
-    }
+  //  else{
+  //      document.getElementById("banner").style.display = "none";
+  //  }
+//}
+
+const banner = document.querySelector('.banner');
+// Actual day
+
+const actualDay = d.getDay();
+console.log(actualDay);
+if (actualDay === 0 || actualDay === 2) {
+  banner.classList.add('open');
+  
 }
+
+
+
+
+
 
 

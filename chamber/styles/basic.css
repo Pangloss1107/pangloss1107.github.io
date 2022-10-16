@@ -48,6 +48,14 @@ header img{
   text-align: center;
 }
 
+.banner{
+  display: none;
+}
+
+.banner.open{
+  display: block;
+}
+
 .logo{
     width: 70%;
     grid-column: 1 / 2;
