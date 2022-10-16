@@ -7,9 +7,11 @@
   }
 
   nav ul li a {
-    font-size: 3.5rem;
+    font-size: 2.6rem;
     color: white;
+    margin-left:1rem ;
   }
+  
 
   nav ul#primaryNav {
     display: flex;
@@ -87,5 +89,102 @@ main {
   main .spotlight3 {
     display: inherit;
   }
+
+  .join button{
+    position:absolute;
+    font-size: 4rem;
+    text-align: center;
+    margin:1rem;
+    margin-top: 3rem;
+
+}
+
+.join p{
+    color: white;
+    font-family: 'Faustina', serif;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+
+}
+
+.hero .titles{
+    font-size: 5rem;
+    color:white;
+    padding: 2rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+
+}
+
+.joinbutt{
+    font-size: 4rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+    margin-top:-25rem;
+    margin-left: 5rem;
+}
+
+.event .titles{
+    font-size: 5rem;
+}
+.event p{
+    font-size: 2.5rem;
+    margin-left: 1.2rem;
+  }
+
+.newre h2{
+    font-size: 5rem;
+}
+
+.newre p{
+    font-size: 2.5rem;
+  }
+
+.spotlights h2{
+    color: white;
+    text-align: center;
+    font-family: 'Faustina', serif;
+    font-size: 5rem;
+}
+
+.spotlights p {
+    font-size: 2.5rem;
+    margin-top: -2.5rem;
+  }
+
+.spotlights img {
+    height: 50%;
+  }
+
+
+.weather h2{
+    font-size: 5rem;
+}
+  
+.weathericon p{
+    font-size: 5rem;
+  }
+  
+.weatherinfo h3{        
+    font-size: 3rem;
+
+}
+
+
+.weatherinfo p{
+    font-size: 2.5rem;
+  }
+
+  .spotlight3{
+    background-color:#00BFB2 ;
+    box-shadow: .1rem .1rem .5rem .1rem rgba(0, 0, 0, 0.4);
+    border: none;
+  }
+
+
+
+
+
+
+
 
 }

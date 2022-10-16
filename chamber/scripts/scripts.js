@@ -72,3 +72,19 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+
+
+// Show the Banner only on Monday or Tuesday
+function showBanner(){
+    fecha = new Date();
+    let actualday = fecha.getDay()
+
+    if(day>=1 && day <=3){
+        document.getElementsByClassName("banner").style.display = "";
+    }
+    else{
+        document.getElementsByClassName("banner").style.display = "none";
+    }
+}
+
+
