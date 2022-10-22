@@ -9,6 +9,11 @@
         width: 100%;
         margin: 0;
         padding: 0;
+        
+    }
+
+    header section{
+        padding-bottom: 4rem;
     }
 
     .logo{
@@ -33,7 +38,8 @@
     }
 
     nav ul li a {
-        font-size: 2rem;
+        font-size: 3rem;
+        
       }
     
       .logo svg {
@@ -138,14 +144,17 @@
     }
 
     div.join > section button{
-        padding: 1rem;
+        padding-left: 15rem;
+        padding-right: 15rem;
         text-align: center;
-        margin-left: 25rem;
+        margin-left: 12rem;
+        margin-right: 12rem;
         background-color: rgba(0, 0, 0, 0.6);
         color:white;
         border-radius: 1rem 1rem 1rem 1rem;
         cursor: pointer;
         font-size: 5rem;
+        box-shadow: 9px 9px 9px #494a4a;;
     }
     
     .join p{
@@ -170,6 +179,7 @@
         font-size: 3rem;
         border-radius: 1rem 1rem 1rem 1rem;
         margin-top:-15rem;
+        box-shadow: 9px 9px 9px #494a4a;
 
     }
 
