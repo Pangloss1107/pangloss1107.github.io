@@ -1,7 +1,13 @@
 @media only screen and (min-width: 64em) {
 
-
-
+  body {
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    align-content: center;
+}
+  
+  
   header button {
     display: none;
   }
@@ -58,6 +64,7 @@ main {
     grid-row: 1/3;
   }
 
+
   main .newre {
     grid-column: 2/4;
     grid-row: 3;
@@ -68,7 +75,7 @@ main {
     grid-row: 1/4;
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 0;
+    grid-gap: 2rem;
   }
 
   main .join {
@@ -90,27 +97,30 @@ main {
     display: inherit;
   }
 
-  .join button{
-    position:absolute;
-    font-size: 4rem;
+
+
+  div.join > section button{
+    font-size: 5rem;
     text-align: center;
     margin:1rem;
-    margin-top: 3rem;
-
+    margin-left: 6rem;
+    
 }
 
 .join p{
     color: white;
     font-family: 'Faustina', serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-left: 2rem;
-    margin-top: 1rem;
+    margin-top: -20rem;
 
 }
 
-.hero .titles{
+div.hero .titles{
+    float:inline-start;
     right: 50rem;
-    left: 40rem;
+    left: 46rem;
+    text-align: center;
     font-size: 5rem;
     color:white;
     padding: 2rem;
@@ -118,8 +128,9 @@ main {
 
 }
 
+
 .joinbutt{
-    font-size: 4rem;
+    font-size: 2rem;
     border-radius: 1rem 1rem 1rem 1rem;
     margin-top:-25rem;
     margin-left: 0rem;
@@ -127,10 +138,10 @@ main {
 }
 
 .event .titles{
-    font-size: 5rem;
+    font-size: 3rem;
 }
 .event p{
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-left: 1.2rem;
   }
 
@@ -139,32 +150,32 @@ main {
 }
 
 .newre p{
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
 .spotlights h2{
     color: white;
     text-align: center;
     font-family: 'Faustina', serif;
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 .spotlights p {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-top: -2.5rem;
   }
 
 .spotlights img {
-    height: 50%;
+    height: 40%;
   }
 
 
 .weather h2{
-    font-size: 5rem;
+    font-size: 3rem;
 }
   
 .weathericon p{
-    font-size: 5rem;
+    font-size: 3rem;
   }
   
 .weatherinfo h3{        
@@ -174,15 +185,19 @@ main {
 
 
 .weatherinfo p{
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .spotlight3{
     background-color:#00BFB2 ;
     box-shadow: .1rem .1rem .5rem .1rem rgba(0, 0, 0, 0.4);
     border: none;
+    
   }
 
+  .spotlight3 h3{
+    margin-top: -9rem;
+  }
 
 
 

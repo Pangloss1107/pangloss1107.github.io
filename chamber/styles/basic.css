@@ -10,6 +10,7 @@ body{
     font-size: 16px; /* 1rem = 10px */
     margin: 0;
     padding: 0;
+    
 }
 
 
@@ -155,9 +156,11 @@ nav ul.open {display: block;}
 
 main {
     margin: 0;
+    padding: 0;
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 0.5rem;
+    grid-gap:1rem;
+
   }
   
   main div {
@@ -227,7 +230,7 @@ footer img{
   font-size: 3rem;
   color:white;
 }
-.hero .titles{
+div.hero .titles{
   position: absolute;
   text-align: center;
   font-size: 3rem;

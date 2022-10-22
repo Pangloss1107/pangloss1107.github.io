@@ -71,7 +71,13 @@
     <main>
         <div class="hero">
             <h2 class="titles">Welcome to Uruguay</h2>
-            <picture><img src="./images/Montevideo.png" alt="Mntevideo-image"></picture>
+            <picture>
+
+                <source srcset="../chamber/images/wdd230image-large.jpg" media="(min-width:1000px">
+                <source srcset="../chamber/images/wdd230image-medium.jpg" media="(min-width:550px">
+                
+                <img src="./images/wdd230image-small.jpg" alt="Mntevideo-image">
+            </picture>
             <section><button class="joinbutt" onclick="alert('This function is not available at this moment')">Join the Chamber</button></section>
         </div>
         <div class="event">
@@ -84,15 +90,16 @@
         <div class="weather">
             <h2>Weather</h2>
             <div class="weathericon">
-                <picture><img src="./images/sunny.png" alt="weather image"></picture>
-                <p>30°C </p>
+                <picture>
+                    <img src="./images/sunny.png" alt="weather image"></picture>
+                <p><span class="tempfaren">30</span>°</p>
                 
             </div>
 
             <div class="weatherinfo">
                 <h3>Partly Cloudy</h3>
-                <p>Wind Speed:   2.5 km/h</p>
-                <p>Wind Chill:   N/A</p>
+                <p>Wind Speed: <span class="windspeed">4</span> mph</p>
+                <p>Wind Chill: <span class="windchill"></span></p>
 
             </div>
         </div>
@@ -161,5 +168,6 @@
 
     </footer>
     <script src="./scripts/scripts.js"></script>
+    <script src="./scripts/windchill.js"></script>
 </body>
 </html>
