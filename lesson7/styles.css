@@ -1,0 +1,30 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+    align-content: center;
+}
+
+div.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.container picture img{
+    width: 300px;
+    height: 400px;
+}
+
+picture :hover {
+    box-shadow: 0 0 50px #333;}
+
+
+picture img[data-src] {
+    filter: blur(0.2em);
+    }
+    
+picture img {
+    filter: blur(0em);
+    transition: filter 1s;
+    }
