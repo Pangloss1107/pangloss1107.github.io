@@ -1,0 +1,203 @@
+@media only screen and (min-width: 35rem) {
+
+    .logo{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .logo .name{
+        font-size: 1.3rem;
+        margin:0;
+        padding: 2rem;
+    }
+    .logo .uruwildlogo{
+        width: 12rem;
+    }
+
+    
+    .banner{
+        font-size: 3rem;
+        padding: .5rem;
+    }
+
+    nav ul li a {
+        font-size: 3rem;
+        
+      }
+    
+    .socialheader .social svg {
+        width: 3rem;
+        height: auto;
+        padding: .2rem;
+      }
+    
+
+    .date{
+        font-size: 1.8rem;
+    }
+
+
+    #hamburgerBtn span:nth-child(1) {
+        display: block;
+        height: 5rem;
+        font-size: 3rem;
+    }
+   
+    #hamburgerBtn span:nth-child(2) {
+        height: 5rem;
+        font-size: 3rem;
+    }
+   
+   
+    .montevideoimg{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .montevideoimg div{
+        border: none;
+    }
+    .montevideoimg h2{
+        color: #f7f7f7;
+        text-align: center;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #f5b82e;
+    }
+    .montevideoimg p{
+        padding: 3rem;
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .puntadelesteimg{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .puntadelesteimg div{
+        border: none;
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .puntadelesteimg h2{
+        color: #f7f7f7;
+        text-align: center;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #f5b82e;
+    }
+
+    .puntadelesteimg p{
+        grid-column: 1;
+        grid-row: 1;
+        padding: 3rem;
+
+    }
+
+    .puntadelesteimg img{
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .lapalomaimg{
+        display: grid;
+        grid-template-columns: 1fr 1fr
+    }
+    .lapalomaimg div{
+        border: none;
+    }
+    .lapalomaimg h2{
+        color: #f7f7f7;
+        text-align: center;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #f5b82e;
+    }
+
+    .lapalomaimg p{
+        padding: 3rem;
+    }
+
+
+    .plazatorosimg {
+        display: grid;
+        grid-template-columns: 1fr 1fr
+    }
+
+    .plazatorosimg div{
+        border: none;
+        grid-column: 1;
+        grid-row: 1;
+
+    }
+    .plazatorosimg h2{
+        color: #f7f7f7;
+        text-align: center;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #f5b82e;
+    }
+    
+    .plazatorosimg p{
+        padding: 3rem;
+    }
+    .plazatorosimg img{
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .entradacolimg {
+        display: grid;
+        grid-template-columns: 1fr 1fr
+    }
+
+    .entradacolimg div{
+        border: none;
+        grid-column: 2;
+        grid-row: 1;
+
+    }
+    .entradacolimg h2{
+        color: #f7f7f7;
+        text-align: center;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #f5b82e;
+    }
+    .entradacolimg p{
+        grid-column: 2;
+        grid-row: 1;
+        padding: 3rem;
+    }
+    .entradacolimg img{
+        grid-column: 1;
+        grid-row: 1;
+        padding: 1rem;
+    }
+
+    footer .info{
+        font-size: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    div.infofooter{
+        grid-column: 1/2;
+        grid-row: 1;
+        font-size: 2rem;
+    }
+
+    div.contactinfo{
+        grid-column: 2/3;
+        grid-row: 1;
+        font-size: 2rem;
+    }
+    .uruwildlogofooter{
+        width: 15rem;
+        margin:0 auto
+        
+    }
+    
+    .basefooter{
+        text-align: center;
+        font-size: 1.9rem;
+    }
+
+
+}
+    

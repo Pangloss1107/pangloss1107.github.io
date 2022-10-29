@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/basic.css">
-    <link rel="stylesheet" href="./styles/medium.css">
-    <link rel="stylesheet" href="./styles/large.css">
-    <link rel="shortcut icon" href="./favicon.ico">
-    <title>Chamber of Commerce Project</title>
+    <link rel="stylesheet" href="./discover_styles/small.css">
+    <link rel="stylesheet" href="./discover_styles/medium.css">
+    <link rel="stylesheet" href="./discover_styles/large.css">
+    <link rel="stylesheet" href="../styles/basic.css">
+    
+    <title>Document</title>
 </head>
 <body>
+    
     <header>
 
         <div class="logo">
-        <section ><img class="uruwildlogo" src="../chamber/images/uruwildwebp.webp" alt="logo"> </section>
+        <section ><img class="uruwildlogo" src="../images/uruwildwebp.webp" alt="logo"> </section>
 
         <section class="name"> 
         <h1>UruWild</h1>
@@ -58,7 +60,7 @@
         <nav>
             
             <ul id="primaryNav">
-                <li><a href="#">Directory</a> </li>
+                <li><a href="../index.html">Directory</a> </li>
                 <li><a href="#">Join</a></li>
                 <li><a href="./discover/discover.html">Discover</a> </li>
                 <li><a href="#">Contact</a> </li>
@@ -66,89 +68,47 @@
         </nav>
     </section>
 
-    
-    
+
     <main>
-        <div class="hero">
-            <h2 class="titles">Welcome to Uruguay</h2>
-            <picture>
-
-                <source  srcset="../chamber/images/wdd230image-large.jpg" media="(min-width:64rem)">
-                <source srcset="../chamber/images/wdd230image-medium.jpg" media="(min-width:35rem)">
-                
-                <img src="./images/wdd230image-small.jpg" alt="Mntevideo-image">
-            </picture>
-            <section><button class="joinbutt" onclick="alert('This function is not available at this moment')">Join the Chamber</button></section>
-        </div>
-        <div class="event">
-            <h2 class="titles">Events in Uruguay</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ducimus sequi rerum incidunt autem, 
-                eius magnam harum numquam minus! Ipsa aperiam nisi minus eos voluptatibus amet, libero earum aliquid 
-                architecto? <a href="#">more info...</a></p>
-
-        </div>
-        <div class="weather">
-            <h2>Weather</h2>
-            <div class="weathericon">
-                <picture>
-                    <img src="./images/sunny.png" alt="weather image"></picture>
-                <p><span class="tempfaren">30</span>°</p>
-                
+        <div class="images">
+            <div class="montevideoimg"><picture><img  src="/lesson7/images_optim/placeholder.png" data-src="./images/montevideo.jpg" alt="Montevideo"></picture>
+                <div><h2>Montevideo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nulla id repellendus 
+                velit aperiam voluptas corrupti enim, eum mollitia doloribus soluta corporis harum
+                quod ab magnam reiciendis ea labore tenetur.</p></div>
             </div>
-
-            <div class="weatherinfo">
-                <h3>Partly Cloudy</h3>
-                <p>Wind Speed: <span class="windspeed">4</span> mph</p>
-                <p>Wind Chill: <span class="windchill"></span></p>
-
+            <div class="puntadelesteimg"><picture ><img src="/lesson7/images_optim/placeholder.png" data-src="./images/puntadeleste.jpg" alt="PdelEste"></picture>
+                <div><h2>Punta del Este</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nulla id repellendus 
+                velit aperiam voluptas corrupti enim, eum mollitia doloribus soluta corporis harum
+                quod ab magnam reiciendis ea labore tenetur.</p></div>
             </div>
+            <div class="lapalomaimg"><picture><img src="/lesson7/images_optim/placeholder.png" data-src="./images/lapaloma.jpg" alt="Paloma"></picture>
+                <div><h2>La Paloma</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nulla id repellendus 
+                    velit aperiam voluptas corrupti enim, eum mollitia doloribus soluta corporis harum
+                    quod ab magnam reiciendis ea labore tenetur.</p></div>
+                </div>
+            <div class="plazatorosimg"><picture><img src="/lesson7/images_optim/placeholder.png" data-src="./images/colonia.jpg" alt="Colonia, plaza de Toros"></picture>
+                <div><h2>Colonia (Plaza de Toros)</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nulla id repellendus 
+                    velit aperiam voluptas corrupti enim, eum mollitia doloribus soluta corporis harum
+                    quod ab magnam reiciendis ea labore tenetur.</p></div>
+                </div>
+            <div class="entradacolimg"><picture><img src="/lesson7/images_optim/placeholder.png" data-src="./images/entradacolonia.jpg" alt="Entrada Colonia"></picture>
+                <div><h2>Colonia (Colonial City)</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nulla id repellendus 
+                    velit aperiam voluptas corrupti enim, eum mollitia doloribus soluta corporis harum
+                    quod ab magnam reiciendis ea labore tenetur.</p></div>
+                </div>
         </div>
-
-        <div class="newre">
-            <h2>New Release</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quidem sunt architecto dolorum saepe excepturi, 
-                tenetur aliquam vel corrupti ipsam corporis dolore cupiditate consequatur impedit eos obcaecati. Voluptatum, omnis tenetur. <a href="#">more info...</a></p>
-        </div>
-
-        <div class="spotlights">
-          <div class="spotlight1">
-            <h2>Equipment Transportation</h2>
-            <img src="./images/truckimg.png" alt="Image of an animated truck">
-            <h3>"We get it there for you"</h3>
-            <p>transportation@transport.com</p>
-            <p>+999 599 232 222</p>
-
-          </div>
-          <div class="spotlight2">
-            <h2>Best Places to Vacation</h2>
-            <img src="./images/beachimg.png" alt="Image of a beach">
-            <h3>"Enjoy the sun, the sand and the sea"</h3>
-            <p>travelingcorp@travel.com</p>
-            <p>+999 599 778 554</p>
-          </div>
-          <div class="spotlight3">
-            <h2>Exquisite Gastronomy</h2>
-            <img src="./images/restaurant.png" alt="Image of a beach">
-            <h3>"Enjoy the best food in the World"</h3>
-            <p>restaurant@food.com</p>
-            <p>+999 599 114 977</p>
-          </div>
-        </div>
-
-        <div class="join">
-            <section><button  onclick="alert('This function is not available at this moment')">Join US</button></section>
-            <p>Discover how to join the chamber of commerce and how it will benefit
-                your organizarion! 
-            </p>
-        </div>
-      
-
     </main>
 
+    
     <footer>
         <div class="info">
             <div class="infofooter">
-                <img class="uruwildlogofooter" src="./images/uruwild1.png" alt="logo">
+                <img class="uruwildlogofooter" src="../images/uruwildwebp.webp" alt="logo">
                 <h2>UruWild Chamber of Commerce</h2>
                 <p>Av. Brasil 1599, Montevideo, Uruguay</p>
             </div>
@@ -167,7 +127,8 @@
 
 
     </footer>
-    <script src="./scripts/scripts.js"></script>
-    <script src="./scripts/windchill.js"></script>
+
+    <script src="../scripts/scripts.js" ></script>
+    <script src="./discover_scripts/scripts.js"></script>
 </body>
 </html>

@@ -1,0 +1,89 @@
+body{
+    background-color: #f7f7f7;
+}
+
+div.images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div picture img{
+    width: 100%;
+    height: auto;
+    
+}
+
+.images div{
+    border: 2px solid #f7f7f7;
+    margin: 1rem;
+    padding: 1rem;
+    align-items: center;
+    align-content: center;
+    background-color: #00bfb2;
+}
+
+.images p{
+    color: #f7f7f7;
+}
+
+.montevideoimg div{
+    border: none;
+}
+.montevideoimg h2{
+    color: #f7f7f7;
+    text-align: center;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #f5b82e;
+}
+
+.puntadelesteimg div{
+    border: none;
+}
+.puntadelesteimg h2{
+    color: #f7f7f7;
+    text-align: center;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #f5b82e;
+}
+
+.lapalomaimg div{
+    border: none;
+}
+.lapalomaimg h2{
+    color: #f7f7f7;
+    text-align: center;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #f5b82e;
+}
+
+.plazatorosimg div{
+    border: none;
+}
+.plazatorosimg h2{
+    color: #f7f7f7;
+    text-align: center;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #f5b82e;
+}
+
+.entradacolimg div{
+    border: none;
+}
+.entradacolimg h2{
+    color: #f7f7f7;
+    text-align: center;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #f5b82e;
+}
+
+.uruwildlogofooter{
+    width: 10rem;
+    margin:0 auto
+    
+}
+
+.date{
+    font-size: 1rem;
+}

@@ -1,0 +1,57 @@
+@media only screen and (min-width: 64em) {
+
+    header button {
+        display: none;
+      }
+    
+      header section{
+        padding-bottom: 0;
+    }
+    
+
+    
+    .nav-bar nav ul li a {
+    font-size: 3rem;
+    color: white;
+    margin-left: 10rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+    border: none;
+    }
+    
+
+    nav ul#primaryNav {
+    display: flex;
+    
+
+    }
+    nav ul li a {
+    border: none;
+    }
+
+    nav ul li a {
+    padding: 2rem 9rem;
+    }
+
+    .socialheader .social svg {
+    width: 5rem;
+    height: auto;
+    padding: 1rem;
+    }
+    
+    .socialheader .social{
+        margin-right: 20rem;
+    }
+    .date{
+        margin-top:10px;
+        margin-bottom: 10px;
+    }
+    
+    
+    .logo .uruwildlogo{
+        width: 15rem;
+        
+    }
+    .logo .name{
+        font-size: 1.8rem;
+    }
+}
