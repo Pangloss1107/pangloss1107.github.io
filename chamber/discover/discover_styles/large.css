@@ -147,4 +147,9 @@
         font-size: 2rem;
         padding: 3rem;
     }
+
+    .bannervisits{
+        font-size: 2rem;
+        font-family: 'Faustina', serif;
+    }
 }
