@@ -54,4 +54,73 @@
     .logo .name{
         font-size: 1.8rem;
     }
+
+    div.contactinfo{
+        margin-top: 9rem;
+    }
+
+    picture :hover {
+        box-shadow: 0 0 50px #333;}
+
+    .montevideoimg h2{
+        font-size: 5rem;
+        color: #f7f7f7;
+        text-align: center;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #f5b82e;
+    }
+    .montevideoimg p{
+        font-size: 2rem;
+        padding: 3rem;
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .puntadelesteimg h2{
+        font-size: 5rem;
+        color: #f7f7f7;
+        text-align: center;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #f5b82e;
+    }
+    .puntadelesteimg p{
+        font-size: 2rem;
+        padding: 3rem;        
+    }
+
+    .lapalomaimg h2{
+        font-size: 5rem;
+        color: #f7f7f7;
+        text-align: center;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #f5b82e;
+    }
+    .lapalomaimg p{
+        font-size: 2rem;
+        padding: 3rem;
+    }
+
+    .plazatorosimg h2{
+        font-size: 5rem;
+        color: #f7f7f7;
+        text-align: center;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #f5b82e;
+    }
+    .plazatorosimg p{
+        font-size: 2rem;
+        padding: 3rem;
+    }
+
+    .entradacolimg h2{
+        font-size: 5rem;
+        color: #f7f7f7;
+        text-align: center;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #f5b82e;
+    }
+    .entradacolimg p{
+        font-size: 2rem;
+        padding: 3rem;
+    }
 }
