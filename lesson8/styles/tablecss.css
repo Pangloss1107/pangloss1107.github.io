@@ -36,6 +36,7 @@ tr:first-child th {
     color: var(--zebra);
 }
 
+
 th, td {
     font-size: 50px;
 	padding: 7px 15px;
