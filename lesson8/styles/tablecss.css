@@ -32,6 +32,9 @@ tr:first-child th, .highlight {
 	color: var(--forelight);
 
 }
+tr:first-child th {
+    color: var(--zebra);
+}
 
 th, td {
     font-size: 50px;
