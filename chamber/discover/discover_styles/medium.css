@@ -328,7 +328,30 @@
         font-size: 3rem;
         font-family: 'Faustina', serif;
     }
-    
+    .gold img {
+        border: none;
+        display: block;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
+    }
+    .silver img {
+        border: none;
+        display: block;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
+    }
+    .bronze img {
+        border: none;
+        display: block;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
+    }
     
 
 }
