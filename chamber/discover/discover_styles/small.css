@@ -232,3 +232,9 @@ div.container-mem{
     font-size: 2rem;
     font-family: 'Faustina', serif;
 }
+
+.radios{
+    border: none;
+    background-color:#00bfb2;
+    padding-bottom:1rem;       
+}
