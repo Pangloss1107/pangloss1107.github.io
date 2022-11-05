@@ -276,13 +276,18 @@
     
     form input.sbs, form label{
         color:#f7f7f7;
-        font-size: 2.5rem;
+        font-size: 2.6rem;
         
     }
 
     fieldset input.sbs{
         text-align: center;
         
+    }
+    .radios{
+        border: none;
+        background-color:#00bfb2;
+        padding-bottom:1rem;       
     }
     
     
@@ -323,6 +328,7 @@
         font-size: 3rem;
         font-family: 'Faustina', serif;
     }
+    
     
 
 }
