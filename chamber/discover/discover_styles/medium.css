@@ -199,5 +199,131 @@
     }
 
 
+    /*------------FORM----------- */
+
+    form h2.jointitle{
+        font-size: 5rem;
+    }
+    .grid-join{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    .container-form{
+        grid-column: 1;
+        grid-row: 1;
+        width: 100%;
+        margin-left: -1rem;
+        padding:0;
+      }
+      
+    .container-mem{
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .gold, .silver, .bronze{
+        padding: 5rem;
+
+    }
+
+    .gold h2, .silver h2, .bronze h2{
+        font-size:7rem;
+
+    }
+    .gold, .silver, .bronze p{
+        font-size: 2.5rem;
+
+    }
+
+    form fieldset{
+        margin: 2rem;
+        border: 1px solid  rgb(186, 188, 186);
+        border-radius: 10px;
+    }
+    
+    form legend{
+        text-align: center;
+        font-size: 3rem;
+        margin: 0 1rem;
+        padding: 0.5rem;
+        color: #f7f7f7;
+        font-family: 'Faustina', serif;
+    }
+    
+    form label.top, form div{
+        display: block;
+        padding-top: 1rem;
+        font-size: 2.4rem;
+        color: #f7f7f7;
+        text-align: center;
+        
+    }
+    
+    form label.top input, form label.top select{
+        display: block;
+        margin:0 auto;
+        font-size: 2rem;
+        border: solid 1px #999;
+        border-radius: 4px;
+        color:#f7f7f7;
+        width: 100%;
+        max-width: 40rem;
+        background-color: rgba(0,0,0,0.1);
+        font-family: 'Faustina', serif;
+    }
+    
+    form input.sbs, form label{
+        color:#f7f7f7;
+        font-size: 2.5rem;
+        
+    }
+
+    fieldset input.sbs{
+        text-align: center;
+        
+    }
+    
+    
+    form input.submitBtn{
+        border: none;
+        background-color:#f5b82e;
+        color:#f7f7f7;
+        border-radius: 1rem;
+        font-size: 3rem;
+        padding:none;
+        margin: 0 auto;
+        margin-left: 2rem;
+        width: 90%;
+    
+    }
+    
+    form fieldset textarea{
+        width: 100%;
+        font-size: 2rem;
+    }
+
+
+    .thanksmessage{
+        padding: 5rem;
+        
+    }
+    
+    .thanksmessage h1{
+        color: #f7f7f7;
+        font-size: 5rem;
+        border-bottom: #f5b82e 5px solid;
+    }
+    
+    .thanksmessage p{
+        padding-right: 5rem;
+        padding-left: 5rem;
+        color:#f7f7f7;
+        font-size: 3rem;
+        font-family: 'Faustina', serif;
+    }
+    
+
 }
     
