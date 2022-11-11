@@ -1,4 +1,4 @@
-const requestURL = 'https://github.com/Pangloss1107/pangloss1107.github.io/blob/10871d0f369739f0acde99e1480eb91eae8fba8b/chamber/directory/scripts/data.json'
+const requestURL = 'https://pangloss1107.github.io/chamber/directory/scripts/data.json'
 const cards = document.querySelector('cards');
 
 fetch(requestURL)
