@@ -39,6 +39,7 @@ function displayClients(clients){
     //Add the section(card) with the elements
 
     card.appendChild(h2);
+    card.appendChild(portrait);
     card.appendChild(adress);
     card.appendChild(phone);
     card.appendChild(website);
