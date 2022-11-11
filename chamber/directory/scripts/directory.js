@@ -27,7 +27,7 @@ function displayClients(clients){
 
     //Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. 
 
-    portrait.setAttribute('src', clients.image);
+    portrait.setAttribute('src', clients.imageUrl);
     portrait.setAttribute('alt', 'Image of ' + clients.name + ' company');
     portrait.setAttribute('loading', 'lazy');
 
@@ -45,7 +45,7 @@ function displayClients(clients){
     card.appendChild(website);
 
     document.querySelector('div.cards').appendChild(card);
-}
+};
 
 
 
