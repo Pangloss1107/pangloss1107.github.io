@@ -51,7 +51,7 @@
         "name": "Lacoste",
         "adress": "Avda. Alfredo Arocena 1609",
         "phonenumber": "+598 2 6016915",
-        "website" : "https://global.lacoste.com/en/homepage", 
+        "website" : "https://global.lacoste.com", 
         "imageUrl" : "https://github.com/Pangloss1107/pangloss1107.github.io/blob/main/chamber/images/lacoste.png?raw=true",
         "membershiplevel" : "Silver"
     },
@@ -59,7 +59,7 @@
         "name": "La Pasiva",
         "adress": "Arocena 1644",
         "phonenumber": "26008965",
-        "website" : "https://lapasiva.com.uy/menu/lapasivacarrasco", 
+        "website" : "https://lapasiva.com.uy", 
         "imageUrl" : "https://github.com/Pangloss1107/pangloss1107.github.io/blob/main/chamber/images/lapasiva.png?raw=true",
         "membershiplevel" : "Bronze"
     },
