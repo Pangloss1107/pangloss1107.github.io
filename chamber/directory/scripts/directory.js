@@ -19,7 +19,7 @@ function displayClients(clients){
     let portrait = document.createElement('img');
     let adress = document.createElement('p');
     let phone = document.createElement('p');
-    let website = document.createElement('p');
+    let website = document.createElement('a');
 
 
     //Change the textContent property of the h2 element to contain the companies name
