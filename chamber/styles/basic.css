@@ -385,3 +385,33 @@ div.hero .titles{
   box-shadow: .1rem .1rem .5rem .1rem rgba(0, 0, 0, 0.4);
   border: none;
 }
+
+.flexboxweather{
+  display: flex;
+  flex-direction: row;
+  border: none;
+  background-color: #00BFB2;
+}
+
+.flexboxweather img{
+  width: 17rem;
+}
+
+div .flexboxweather h2{
+  display: flex;
+  font-size: 5rem;
+}
+
+
+.windsection{
+  background-color: #00BFB2;
+  border: none;
+  color: #eee;
+  font-size: 2rem;
+}
+
+.weather figcaption h2{
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+  text-shadow: none;
+}
