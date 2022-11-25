@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../discover/discover_styles/medium.css">
     <link rel="stylesheet" href="../discover/discover_styles/large.css">
     <link rel="stylesheet" href="../styles/basic.css">
-    
+
     <title>Document</title>
 </head>
 <body>
@@ -61,9 +61,9 @@
             
             <ul id="primaryNav">
                 <li><a href="../index.html">Main</a></li>
-                <li><a href="../directory/directory.html"">Directory</a> </li>
+                <li><a href="../directory/directory.html">Directory</a> </li>
                 <li><a href="../discover/discover.html">Discover</a> </li>
-                <li><a href="../contact/contact.html">Contact</a> </li>
+                <li><a href="../join/join.html">Join</a> </li>
             </ul>
         </nav>
     </section>
@@ -73,64 +73,45 @@
         <div class="grid-join"> 
             <div class="container-form">
                 
-                <form action="thanks.html" method="get">
-                    <h2 class="jointitle">Join Us</h2>
+                <form action="../join/thanks.html" method="get">
+                    <h2 class="jointitle">Contact Us</h2>
                     <fieldset>
-                        <legend>Applicant Information</legend>
-                        <label class="top">First Name*  <input type="text" name="fname" placeholder="Name" required></label>
+                        <legend>Needed Information</legend>
+                        <label class="top">First Name*  <input type="text" name="fname" placeholder="Pablo" required></label>
 
-                        <label class="top">Last Name*  <input type="text" name="lname" placeholder="Last Name" required></label>
-
-                        <label class="top">Business Position Title <input type="text" name="positiontitle"></label> 
+                        <label class="top">Last Name*  <input type="text" name="lname" placeholder="Santos" required></label>
 
                         <label class="top">Email*  <input type="email" name="email" placeholder="yourmail@yourmail.com" required></label>
 
-                        <label class="top">Phone Number*  <input type="tel" name="phone" placeholder="1234567" required></label>
-
-                        <label class="top">Business Name*  <input type="text" name="businessname" placeholder="Business Name" required></label>
-
-                    </fieldset>
-
-                    <fieldset>
-
-                        <legend>Membership</legend>
-                        <div class="radios">
-                        <input class="sbs" type="radio" name="Membership" value="npmemb"><label>NP Membership</label><br>
-                        <input class="sbs" type="radio" name="Membership" value="bronze"><label>Bronze Membership</label><br>
-                        <input class="sbs" type="radio" name="Membership" value="silver"><label>Silver Membership</label><br>
-                        <input class="sbs" type="radio" name="Membership" value="gold"><label>Gold Membership</label>
-                        </div>
-                    </fieldset>
-
-                    <fieldset>
-
-                        <legend class="top">Business Description</legend>
+                        <legend class="top">Ask us a question!</legend>
                         <textarea name="businessdescrip"></textarea>
 
+
                     </fieldset>
 
-                    <input class="submitBtn" type="submit" name="Join Us" value="Join Us">
+                    <input class="submitBtn" type="submit" name="Ask us" value="Ask">
 
                 </form>
 
-            </div>
-
-            <div class="container-mem">
-                <div class="gold"><h2 >Gold</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam soluta atque neque alias! Ad repellendus soluta nihil dignissimos repellat fugiat amet recusandae, ut nemo suscipit. Adipisci id tempore accusantium amet?</p>
-                <img src="./images/corona.png" alt="corona">
+                <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.994075769336!2d-56.16417528480545!3d-34.90659818038225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f81a62c91d777%3A0x1afaf1d7deb41952!2sAv.%20Brasil%201599%2C%2011300%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1sen!2suy!4v1669352443561!5m2!1sen!2suy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                
-                <div class="silver"><h2 >Silver</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati doloribus rem sint aspernatur quisquam quidem commodi nobis nam libero omnis exercitationem maiores et, corporis, minima soluta, excepturi accusantium quod quibusdam?</p>
-            <img src="./images/silver.png" alt="Silver Star"></div>
-
-                <div class="bronze"><h2 >Bronze</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt impedit, illo omnis commodi ex eveniet. Magni, corporis? Ipsum quaerat, libero praesentium possimus impedit vitae, quos corrupti velit ratione nulla consequuntur.</p>
-            <img src="./images/bronce.png" alt="medalla"></div>
             </div>
-        </div>
+                
 
+                <div class="contact-info">
+
+                    <h2>Contact US</h2>
+                    <h3>Adress</h3>
+                    <p>Av. Brasil 1599, <br>Montevideo, Uruguay</p>
+
+                    <h3>Phone</h3>
+                    <a href="tel:(589) 95 232 277"" runtime_url="tel:+(589) 95 232 277" type="call" style="display: initial">801-472-7467</a>
+
+                    <h3>Email</h3>
+                    <p><a href="#">info@uruwild.org</a></p>
+
+                </div>
+            
     </main>
 
     
@@ -158,6 +139,6 @@
     </footer>
 
     <script src="../scripts/scripts.js" ></script>
-    <script src="./discover_scripts/scripts.js"></script>
+    <script src="../discover/discover_scripts/scripts.js"></script>
 </body>
 </html>

@@ -68,10 +68,13 @@
     picture :hover {
         box-shadow: 0 0 50px #333;}
 
+    
 
+    
 
     .images .montevideoimg picture{
         z-index: 1;
+        padding: 0;
     }
     .montevideoimg h2{
         font-size: 5rem;
@@ -79,7 +82,9 @@
         text-align: center;
         padding-bottom: 1rem;
         border-bottom: 2px solid #f5b82e;
+        
     }
+    
     .montevideoimg p{
         font-size: 2rem;
         padding: 3rem;
@@ -152,4 +157,33 @@
         font-size: 2rem;
         font-family: 'Faustina', serif;
     }
-}
+
+
+    div.container-form{
+        margin: 0;
+        padding: 0;
+    }
+
+    .gold p{
+        font-size: 1.5rem;    }
+
+    .silver p{
+        font-size: 1.5rem;
+    }
+    .bronze p{
+        font-size: 1.5rem;
+    }
+
+    div.container-form{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: none;
+    }
+
+    div.contact-info{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+      
+
+    }
