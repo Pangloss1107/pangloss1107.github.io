@@ -101,8 +101,45 @@ if (actualDay === 1 || actualDay === 2) {
 }
 
 
+const requestURL =
+'https://pangloss1107.github.io/chamber/directory/scripts/data.json'
+const cards = document.querySelector('.spotlights');
+cards.innerHTML = '';
 
+async function getData() {
+  const request = new Request(requestURL);
+  const response = await fetch(request);
+  const jsonObject = await response.json();
+  const allClients = jsonObject['clients'];
+  const clients = allClients.filter(
+    (client) =>
+      client.membershiplevel === 'silver' || client.membershiplevel === 'gold'
+  );
+  const index = Math.floor(Math.random() * (3 - 1 + 1) + 1);
+  companies.splice(index - 1, 1);
+  companies.forEach((client, index) => {
+    displayClients(client, index);
+  });
+}
 
+function displayClients(client, index) {
+  let spotlight = document.createElement('div');
+  spotlight.innerHTML = `
+  <div class="spotlight${index + 1} spotlight">
+    <h2>${client.name}</h2>
+    <picture>
+      <img width="100" height="100" src="${client.imageUrl}" alt="${
+    client.name
+  }">
+    </picture>
+    <div class="info">
+      <p>${client.address}</p>
+      <p>Phone: ${company.phonenumber}</p>
+      <a target="_blank" href="${client.website}">${client.website}</a>
+    </div>
+  </div>
+  `;
+  cards.appendChild(spotlight);
+}
 
-
-
+const prove = getData();
