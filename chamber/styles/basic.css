@@ -174,6 +174,7 @@ main {
   main .join {
     display: none;
   }
+
   
   main .spotlight3 {
     display: none;
@@ -374,25 +375,6 @@ div.hero .titles{
   border: none;
   text-align: center;
 }
-.spotlights h3{
-  color: white;
-  text-align: center;
-  font-family: 'Faustina', serif;
-  font-size: 2.5rem;
-  border-bottom: 2px solid white;
-  padding-bottom: .5rem;
-}
-
-.spotlight1{
-  background-color:#00BFB2 ;
-  box-shadow: .1rem .1rem .5rem .1rem rgba(0, 0, 0, 0.4);
-  border: none;
-}
-.spotlight2{
-  background-color:#00BFB2 ;
-  box-shadow: .1rem .1rem .5rem .1rem rgba(0, 0, 0, 0.4);
-  border: none;
-}
 
 .flexboxweather{
   display: flex;
@@ -422,4 +404,21 @@ div .flexboxweather h2{
   border-bottom: 1px solid #eee;
   padding-bottom: 1rem;
   text-shadow: none;
+}
+
+.clients{
+  background-color:white;
+  text-align: center;
+  border-radius: 10px;
+
+}
+.clients .par1{
+  font-size: 3rem;
+}
+
+.clients p{
+  color:#333;
+}
+p.adressline{
+  padding-top: 2rem;
 }
