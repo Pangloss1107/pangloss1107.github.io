@@ -1,7 +1,7 @@
-const requestURL = 'https://pangloss1107.github.io/chamber/directory/scripts/data.json'
+const newrequestURL = 'https://pangloss1107.github.io/chamber/directory/scripts/data.json'
 const cards = document.querySelector('cards');
 
-fetch(requestURL)
+fetch(newrequestURL)
     .then(function (response){
         return response.json();
     })

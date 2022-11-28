@@ -22,4 +22,8 @@
     #list{
         font-size: 3rem;
     }
+
+div.flexboxweather{
+        justify-content: center;
+    }
 }
