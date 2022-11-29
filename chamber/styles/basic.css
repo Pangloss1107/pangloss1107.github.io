@@ -242,7 +242,6 @@ div.hero .titles{
   font-size: 3rem;
   color:white;
   padding: 2rem;
-  border-radius: 1rem 1rem 1rem 1rem;
 }
 
 .join section{
@@ -252,7 +251,7 @@ div.hero .titles{
 }
 
 .hero button a{
-  color: wheat;
+  color: white;
   text-decoration: none;
   
 }
