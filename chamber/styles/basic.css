@@ -251,8 +251,15 @@ div.hero .titles{
   align-items: center;
 }
 
+.hero button a{
+  color: wheat;
+  text-decoration: none;
+  
+}
+
 .hero button:hover{
   background-color: red;
+
 }
 .joinbutt{
   margin-top: -8rem;
@@ -267,6 +274,12 @@ div.hero .titles{
 }
 .join section button:hover{
   background-color: red;
+  color: white;
+}
+
+.join section button a{
+  color:#eee ;
+  text-decoration: none;
 }
 
 .event {
