@@ -192,3 +192,8 @@ fetch(requestURL)
       document.querySelector("div.spotlights").appendChild(clientsbox);
     }
   });
+
+
+
+  const subTime = document.querySelector("#submissionTime");
+  subTime.value = new Date()

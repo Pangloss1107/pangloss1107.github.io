@@ -250,14 +250,12 @@
       }
       
       .windsection{
-        
         font-size: 2rem;
       }
       
       .weather figcaption h2{
-        font-size: 5rem;
+        font-size: 3rem;
         padding-bottom: 1rem;
-        text-shadow: none;
       }
 
 

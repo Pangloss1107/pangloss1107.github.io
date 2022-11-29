@@ -245,6 +245,15 @@ div.hero .titles{
   border-radius: 1rem 1rem 1rem 1rem;
 }
 
+.join section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero button:hover{
+  background-color: red;
+}
 .joinbutt{
   margin-top: -8rem;
   position:absolute;
@@ -255,6 +264,9 @@ div.hero .titles{
   padding: 1rem;
   border-radius: 1rem 1rem 1rem 1rem;
   cursor: pointer;
+}
+.join section button:hover{
+  background-color: red;
 }
 
 .event {
@@ -337,6 +349,7 @@ div.hero .titles{
 
 .newre{
   background-color: #00BFB2;
+  text-align: center;
 }
 .newre h2{
   color: white;
@@ -345,6 +358,12 @@ div.hero .titles{
   font-size: 3rem;
 }
 
+.newre h3{
+  color: white;
+  text-align: center;
+  font-family: 'Faustina', serif;
+  font-size: 2rem;
+}
 .newre p{
   color: white;
   font-family: 'Faustina', serif;
@@ -396,7 +415,8 @@ div .flexboxweather h2{
 .windsection{
   background-color: #00BFB2;
   border: none;
-  color: #eee;
+  font-family: 'Faustina', serif;
+  color: white;
   font-size: 2rem;
 }
 
@@ -404,6 +424,8 @@ div .flexboxweather h2{
   border-bottom: 1px solid #eee;
   padding-bottom: 1rem;
   text-shadow: none;
+  font-size: 2rem;
+  text-shadow:1px 1px #494a4a ;
 }
 
 .clients{

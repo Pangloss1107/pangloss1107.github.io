@@ -104,8 +104,12 @@
 
                     <fieldset>
 
-                        <legend class="top">Business Description</legend>
-                        <textarea name="businessdescrip"></textarea>
+                        <label class="top">Business Description
+                        <input type="text" placeholder="Letters, hypens and spaces only, min 7 characters" pattern="[A-Za-z\s-]{7,}" name="business desc" />
+                        </label>
+                        <label id="hidden">
+                            <input type="hidden" id="submissionTime" name="submissionTime" />
+                        </label>
 
                     </fieldset>
 
@@ -117,16 +121,19 @@
 
             <div class="container-mem">
                 <div class="gold"><h2 >Gold</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam soluta atque neque alias! Ad repellendus soluta nihil dignissimos repellat fugiat amet recusandae, ut nemo suscipit. Adipisci id tempore accusantium amet?</p>
+                <p>With our gold membership, you can enjoy the best content on the market, also accessing significant discounts at any of our affiliated companies. <br>
+                    <strong>Just for $9.99</strong></p>
                 <img src="./images/corona.png" alt="corona">
                 </div>
                 
                 <div class="silver"><h2 >Silver</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati doloribus rem sint aspernatur quisquam quidem commodi nobis nam libero omnis exercitationem maiores et, corporis, minima soluta, excepturi accusantium quod quibusdam?</p>
+                <p>Silver membership is here to surprise you. You will be able to access various forums and content from our premium line. You will also access some discounts with some of our affiliates. <br>
+                    <strong>Just for $5.99</strong> </p>
             <img src="./images/silver.png" alt="Silver Star"></div>
 
                 <div class="bronze"><h2 >Bronze</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt impedit, illo omnis commodi ex eveniet. Magni, corporis? Ipsum quaerat, libero praesentium possimus impedit vitae, quos corrupti velit ratione nulla consequuntur.</p>
+                <p>With our Bronze membership, we offer a monthly income of 5 premium news and access to 4 forums. You can enjoy discounts on the Tata supermarket line.
+                   <strong>Just for $3.99.</strong> </p>
             <img src="./images/bronce.png" alt="medalla"></div>
             </div>
         </div>
